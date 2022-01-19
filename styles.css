@@ -1,0 +1,88 @@
+* {
+    font-family: Helvetica, sans-serif;
+    color:white;
+}
+
+body {
+    background-color: #74b9ff;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    margin: 50px;
+    font-size: 3rem;
+}
+
+.shell {
+    width: 425px;
+    height: 575px;
+    background-color: #2d3436;
+    border-radius: 30px;
+    padding: 30px;
+    margin: auto;
+}
+
+.value-cont {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: end;
+    font-size: 2rem;
+    border-radius: 8px;
+    /* display: inline-flex; */
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.current {
+    color: #2d3436;
+    padding: 17px 20px;
+    font-size: 2rem;
+}
+
+.previous {
+    padding: 10px 20px 0 0;
+    color: #2d343693;
+    font-size: 1.5rem;
+}
+
+.btn-cont {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+
+.calcbtn {
+    background-color: #b2bec3;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    margin: 3px;
+    height: 75px;
+    border-radius: 8px;
+    
+}
+
+button.calcbtn.AC {
+    grid-column-start: 4;
+    background-color: #fdcb6e;
+}
+
+.equal {
+        background-color: #00b894;
+}
+
+button.math {
+    background-color: #e17055;
+}
+/* 
+button:hover {
+    background:rgb(255, 255, 255);
+    opacity:10%;
+    transition: all 0.15s;
+    -webkit-transition: all 0.15s;
+} */
